@@ -1,0 +1,23 @@
+{
+  "name": "yasd/ankiconnect",
+  "autoload": {
+    "psr-4": {
+      "YaSD\\AnkiConnect\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YaSD\\AnkiConnect\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "psr/http-factory": "^1.0",
+    "psr/http-client": "^1.0",
+    "php-http/discovery": "^1.12"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4",
+    "nyholm/psr7": "^1.3",
+    "kriswallsmith/buzz": "^1.1"
+  }
+}
