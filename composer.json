@@ -1,5 +1,6 @@
 {
   "name": "yasd/ankiconnect",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "YaSD\\AnkiConnect\\": "src/"
